@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ride"
+            android:icon="@drawable/ic_ride_white_24dp"
+            android:title="놀이기구" />
+        <item
+            android:id="@+id/nav_parking"
+            android:icon="@drawable/ic_local_parking_white_24dp"
+            android:title="주차장" />
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/ic_shopping_cart_white_24dp"
+            android:title="상점" />
+        <item
+            android:id="@+id/nav_parade"
+            android:icon="@drawable/ic_event_white_24dp"
+            android:title="퍼레이드" />
+        <item
+            android:id="@+id/nav_child"
+            android:icon="@drawable/ic_child_care_white_24dp"
+            android:title="미아 정보" />
+        <item
+            android:id="@+id/nav_coupon"
+            android:icon="@drawable/ic_grade_white_24dp"
+            android:title="쿠폰 / 이벤트" />
+    </group>
+
+    <item android:title="기타">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="문의 및 건의" />
+        </menu>
+    </item>
+
+</menu>
